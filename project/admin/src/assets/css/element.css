@@ -1,0 +1,45 @@
+.el-breadcrumb__inner a, .el-breadcrumb__inner.is-link {
+  font-weight: normal;
+  color: #999;
+}
+
+.el-breadcrumb__separator {
+  font-weight: normal;
+}
+
+
+.cache-routes .el-tabs--card>.el-tabs__header {
+  border-bottom: none;
+}
+
+.cache-routes .el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+  border: none;
+}
+
+
+.cache-routes .el-tabs--card>.el-tabs__header .el-tabs__nav {
+  border: none;
+}
+
+.cache-routes .el-tabs--card>.el-tabs__header .el-tabs__item {
+  border: none;
+  /* 重新定义样式 */
+  height: 32px;
+  line-height: 32px;
+  background: #fff;
+  margin-right: 6px;
+  border-radius: 3px;
+}
+
+.cache-routes .el-tabs__nav-next, .cache-routes .el-tabs__nav-prev {
+  line-height: 32px;
+}
+
+.scroll-bar .el-scrollbar__wrap {
+  overflow-x: hidden !important;
+}
+
+
+.el-card__body {
+  height: calc(100% - 100px);
+}

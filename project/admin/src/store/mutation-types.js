@@ -1,0 +1,1 @@
+export const TOGGLE_COLLAPSE = "TOGGLE_COLLAPSE" // 切换菜单的折叠状态
